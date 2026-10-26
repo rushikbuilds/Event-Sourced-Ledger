@@ -18,7 +18,7 @@ public class ProjectionEngine {
   }
 
   public void processNewEvents() {
-    projectionService.rebuild();
+    projectionService.processNewEvents();
   }
 
   public long rebuildAll() {

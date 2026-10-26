@@ -199,7 +199,7 @@ public class LedgerService {
     store.append("account-" + a.id(), List.of(e), store.version("account-" + a.id()));
   }
 
-  private void project() { projections.rebuild(); }
+  private void project() { projections.processNewEvents(); }
 
   @Caching(evict = {
       @CacheEvict(value = "accounts", allEntries = true),
