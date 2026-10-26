@@ -1,6 +1,6 @@
 # Event-Sourced Ledger
 
-A production-quality **event-sourced bank transaction ledger** built with Java 17, Spring Boot 3, PostgreSQL, and Redis. Every state change is captured as an immutable event, enabling full audit trails, time-travel debugging, and projection rebuilds.
+A **event-sourced bank transaction ledger** built with Java 17, Spring Boot 3, PostgreSQL, and Redis. Every state change is captured as an immutable event, enabling full audit trails, time-travel debugging, and projection rebuilds.
 
 ## Features
 
